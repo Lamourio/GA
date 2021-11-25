@@ -45,9 +45,12 @@
             <h1>profile 3</h1>
         </section>
         <script>
-            dataLayer.push({
+            setInterval(() => {
+                dataLayer.push({
                 event: "myEvent",
             });
+            }, 5000);
+
         </script>
     </body>
 </html>
